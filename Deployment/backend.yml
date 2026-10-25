@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: neerajdeveloper/authlab-backend:44f7a1a
+          image: neerajdeveloper/authlab-backend:cedc4af
           imagePullPolicy: IfNotPresent
           env:
             - name: SPRING_DATASOURCE_URL
