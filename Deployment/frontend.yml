@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: neerajdeveloper/authlab-frontend:cedc4af
+          image: neerajdeveloper/authlab-frontend:1a564fd
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
